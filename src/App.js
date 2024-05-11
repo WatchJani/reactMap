@@ -14,13 +14,11 @@ function App() {
         latitude: 45.5479864,
         zoom: 3.5,
       }}
-      mapStyle="mapbox://styles/mapbox/streets-v11"
+      mapStyle="mapbox://styles/mapbox/satellite-streets-v12" //mapbox://styles/mapbox/satellite-streets-v12 //mapbox://styles/mapbox/streets-v11
     >
 
       <Marker longitude={13.7304781} latitude={45.5479864} anchor="bottom" >
         <img className="circle" src="./balon.jpg"/>
-          
-        
       </Marker>
       {/* <GeolocateControl
           positionOptions={{ enableHighAccuracy: true }}
